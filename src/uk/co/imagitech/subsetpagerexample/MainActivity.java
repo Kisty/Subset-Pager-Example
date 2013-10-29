@@ -84,7 +84,7 @@ public class MainActivity extends FragmentActivity {
 				if (page % 2 == 0) {
 					return page / 2;
 				} else {
-					return getCount() + page / 2/*POSITION_NONE*/;
+					return POSITION_NONE;
 				}
 			} else {
 				return POSITION_NONE;
